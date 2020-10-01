@@ -8,7 +8,11 @@ body {
 }
 
 .innovative {
-  background: purple; 
+  background: purple;
+}
+
+.design {
+  background: pink;
 }
 
 .box {
