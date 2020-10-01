@@ -169,7 +169,7 @@ header .navbar .navbar-toggle:hover {
 }
 
 .img-responsive img {
-  width: calc(100% / 6);
+  max-width: 100%;
 }
 
 /* DEBUG */
