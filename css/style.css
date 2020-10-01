@@ -27,6 +27,10 @@ body {
   background: lightgrey;
 }
 
+.credits {
+  background: yellow;
+}
+
 .box {
   height: 200px;
   width: 100%;
