@@ -15,6 +15,10 @@ body {
   background: pink;
 }
 
+.service {
+  background: azure;
+}
+
 .box {
   height: 200px;
   width: 100%;
