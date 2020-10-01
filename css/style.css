@@ -1,10 +1,42 @@
 body {
   font-family: 'Roboto', sans-serif;
-  padding-top: 90px; 
+  padding-top: 90px;
+}
+/* DEBUG */
+.hero {
+  background: yellow;
+}
+
+.innovative {
+  background: purple; 
 }
 
 .box {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+}
+
+.red {
   background: red;
+}
+
+.green {
+  background: green;
+}
+
+.grey {
+  background: lightgrey;
+}
+
+.aqua {
+  background: aqua;
+}
+
+.blue {
+  background: blue;
+}
+
+.orange {
+  background: orange;
 }
