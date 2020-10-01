@@ -1,7 +1,66 @@
 body {
   font-family: 'Roboto', sans-serif;
-  padding-top: 90px;
+  font-weight: 700;
+  padding-top: 75px;
 }
+/* TIPOGRAPHY */
+h1{
+  font-size: 52px;
+  color: #ffffff;
+}
+
+/* HEADER */
+header .navbar-brand img {
+  width: 180px;
+  margin-right: 50px;
+}
+
+header .navbar-default {
+  background: #ffffff;
+  height: 75px;
+}
+
+header .navbar-nav {
+  padding-top: 10px;
+}
+
+header .navbar-collapse .navbar-nav a {
+  color: #031c4e;
+  transition: color 0.4s;
+}
+
+header .navbar-collapse .navbar-nav a:hover {
+  color: #006aff;
+}
+
+header .navbar-collapse .navbar-nav .btn {
+  padding: 10px 15px 10px;
+  transform: translateY(5px);
+  color: #006aff;
+  border: 1px solid #006aff;
+  transition: background 0.4s;
+}
+
+header .navbar-collapse .navbar-nav .btn:hover {
+  background: #006aff;
+  color: #ffffff;
+}
+
+.navbar-toggle {
+  background: #ffffff;
+  border: none;
+}
+
+header .navbar .navbar-toggle .icon-bar {
+  background: #006aff;
+  transition: background 0.4s;
+}
+
+header .navbar .navbar-toggle:hover {
+  background: rgba(58, 138, 255, 0.5);
+
+}
+
 /* DEBUG */
 .hero {
   background: yellow;
@@ -59,4 +118,34 @@ body {
 
 .orange {
   background: orange;
+}
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Mostra hamburger */
+  .navbar-toggle {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 10px;
+  }
+  /* Nascondi contenitore menu */
+  .navbar-collapse {
+      display: none;
+  }
+  /* Dimensione Immagine Logo */
+  header .navbar-brand img {
+    width: 200px;
+  }
+}
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .navbar-toggle {
+      right: 0;
+      top: 10px;
+  }
+  /* Dimensione Immagine Logo */
+  header .navbar-brand img {
+    width: 220px;
+  }
+
 }
