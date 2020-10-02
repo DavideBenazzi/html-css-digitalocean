@@ -339,11 +339,37 @@ header .navbar .navbar-toggle:hover {
   text-decoration: none;
   color:  #98e4fc;
 }
-/* DEBUG */
+/* SERVICE */
 .service {
-  background: azure;
+  background-image: linear-gradient(#0047c5, #001e9a);
+  color: #ffffff;
+  padding: 50px 0 50px;
 }
 
+.service .list-group-item {
+  position: relative;
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.service .list-group-item span {
+  padding-left: 50px;
+}
+
+.service .list-group-item a {
+  color: #00d5d2;
+  position: absolute;
+  right: 10px;
+}
+
+.service .list-group-item a:hover {
+  color: #006aff;
+  text-decoration: none;
+}
+
+/* DEBUG */
 .development {
   background: pink;
 }
