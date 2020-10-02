@@ -10,6 +10,11 @@ h1{
 }
 
 /* HEADER */
+header .container {
+    position: relative;
+    padding-right: 30px;
+}
+
 header .navbar-brand img {
   width: 180px;
   margin-right: 50px;
@@ -159,7 +164,6 @@ header .navbar .navbar-toggle:hover {
   background: rgba(87, 154, 255, 0.5);
 }
 
-
 .background-form a:hover {
   color: #006aff;
 }
@@ -168,8 +172,43 @@ header .navbar .navbar-toggle:hover {
   background: #f3f5f9;
 }
 
-.img-responsive img {
-  max-width: 100%;
+.innovative h3 {
+  color: #6f7b97;
+  margin: 30px 0;
+}
+
+.innovative ul {
+  padding: 0;
+}
+
+.innovative li {
+  display: inline-block;
+  width: calc((100% / 6) - 10px);
+  padding: 10px;
+
+}
+
+.innovative li img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.innovative .container .row:last-child a {
+  color: #006aff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+.innovative .container .row:last-child a:hover {
+  color: #031c4e;
+  text-decoration: none;
+}
+
+.innovative .container .row:last-child i {
+  font-size: 10px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 /* DEBUG */
@@ -228,7 +267,6 @@ header .navbar .navbar-toggle:hover {
   .navbar-toggle {
       display: block;
       position: absolute;
-      right: 0;
       top: 10px;
   }
   /* Nascondi contenitore menu */
@@ -250,7 +288,7 @@ header .navbar .navbar-toggle:hover {
   header .navbar-brand img {
     width: 220px;
   }
-  /* dimensione font hero */
+  /* hero */
   .hero .fontsize p {
     line-height: 30px;
     font-size: 26px;
@@ -259,5 +297,9 @@ header .navbar .navbar-toggle:hover {
   .hero .fontsize p {
     margin: 30px 0;
   }
-
+  /* Innovative */
+  .innovative ul li {
+    width: calc((50%) - 10px);
+    padding: 0 10px;
+  }
 }
