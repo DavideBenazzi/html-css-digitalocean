@@ -377,8 +377,9 @@ header .navbar .navbar-toggle:hover {
   color: #006aff;
   text-decoration: none;
 }
-
+/* DEVELOPMENT */
 /* DEBUG */
+
 .development {
   background: #f3f5f9;
   padding: 50px 0 50px;
@@ -401,11 +402,40 @@ header .navbar .navbar-toggle:hover {
 .development .slider {
   background: #ffffff;
   width: 600px;
-}
-
-.development .slider {
   display: inline-block;
   margin: 30px;
+  padding: 30px 0;
+  vertical-align: middle;
+}
+
+.development .slider img {
+  margin-bottom: 30px;
+}
+
+.development .slider p {
+  color: #5c6a88;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.development .slider h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.development .slider h4 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.development .slider a {
+  color: #006aff;
+  font-size: 14px;
+}
+
+.development .slider a:hover {
+  color: #00d5d2;
 }
 
 .development .pallini a {
