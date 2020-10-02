@@ -95,9 +95,13 @@ header .navbar .navbar-toggle:hover {
   color: #031c4e;
 }
 
-.background-form h4 {
+.background-form h4 a {
   color: #006aff;
   font-size: 22px;
+}
+
+.background-form h4 a:hover {
+  color: #98e4fc;
 }
 
 .background-form p {
@@ -201,7 +205,7 @@ header .navbar .navbar-toggle:hover {
 }
 
 .innovative .container .row:last-child a:hover {
-  color: #031c4e;
+  color: #98e4fc;
   text-decoration: none;
 }
 
@@ -209,6 +213,61 @@ header .navbar .navbar-toggle:hover {
   font-size: 10px;
   vertical-align: middle;
   margin-left: 10px;
+}
+/* SECTION DEPLOY */
+.deploy {
+  color: #5c6a88;
+  padding-bottom: 50px;
+}
+
+.deploy h2 {
+  font-size: 30px;
+  color: #031c4e;
+  margin-top: 50px;
+}
+
+.deploy h3 {
+  color: #031c4e;
+}
+
+.deploy .text-center p {
+  font-size: 18px;
+  margin: 20px 0 50px;
+}
+
+.deploy ul {
+  margin-bottom: 30px;
+}
+
+.deploy li {
+  list-style: none;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.deploy li a {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #5c6a88;
+}
+
+.deploy h4 {
+  color: #031c4e;
+  margin: 20px 0 10px;
+}
+
+.deploy h4 ~ p {
+  font-weight: 400;
+}
+
+.deploy li:hover {
+  border-left: 1px solid #006aff;
+}
+
+.deploy li a:hover {
+  text-decoration: none;
+  color: #006aff;
 }
 
 /* DEBUG */
@@ -277,6 +336,10 @@ header .navbar .navbar-toggle:hover {
   header .navbar-brand img {
     width: 200px;
   }
+  /*section  Deploy */
+  .deploy ul {
+    padding-left: 0;
+  }
 }
 /* MOBILE */
 @media screen and (max-width: 768px) {
@@ -288,7 +351,7 @@ header .navbar .navbar-toggle:hover {
   header .navbar-brand img {
     width: 220px;
   }
-  /* hero */
+  /* Section Hero */
   .hero .fontsize p {
     line-height: 30px;
     font-size: 26px;
@@ -297,9 +360,13 @@ header .navbar .navbar-toggle:hover {
   .hero .fontsize p {
     margin: 30px 0;
   }
-  /* Innovative */
+  /* Section Innovative */
   .innovative ul li {
     width: calc((50%) - 10px);
     padding: 0 10px;
+  }
+  /* section Deploy */
+  .deploy ul {
+    padding-left: 0;
   }
 }
