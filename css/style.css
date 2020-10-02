@@ -380,7 +380,42 @@ header .navbar .navbar-toggle:hover {
 
 /* DEBUG */
 .development {
-  background: pink;
+  background: #f3f5f9;
+  padding: 50px 0 50px;
+  color: #031c4e;
+}
+
+.development h2 {
+  margin-bottom: 50px;
+}
+
+.development .utility-slider a {
+  color: #031c4e;
+}
+
+.development .utility-slider a:hover {
+  color: #006aff;
+  text-decoration: none;
+}
+
+.development .slider {
+  background: #ffffff;
+  width: 600px;
+}
+
+.development .slider {
+  display: inline-block;
+  margin: 30px;
+}
+
+.development .pallini a {
+  color: #006aff;
+  text-decoration: none;
+}
+
+.development .pallini i:hover {
+  background: #006aff;
+  border-radius: 50%;
 }
 
 .started {
@@ -448,6 +483,10 @@ header .navbar .navbar-toggle:hover {
   .design .utility-slider i {
     font-size: 20px;
   }
+  /* section Development */
+  .development .slider {
+    width: 450px;
+  }
 }
 /* MOBILE */
 @media screen and (max-width: 768px) {
@@ -483,5 +522,9 @@ header .navbar .navbar-toggle:hover {
   }
   .design .utility-slider i {
     display: none;
+  }
+  /* section Development */
+  .development .slider {
+    width: 300px;
   }
 }
