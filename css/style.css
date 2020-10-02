@@ -269,12 +269,21 @@ header .navbar .navbar-toggle:hover {
   text-decoration: none;
   color: #006aff;
 }
-
-/* DEBUG */
+/* SECTION DESIGN */
 .design {
-  background: pink;
+  background: #f3f5f9;
 }
 
+.design .slider img {
+  width: 600px;
+}
+
+.design .slider {
+  display: inline-block;
+  margin: 30px;
+}
+
+/* DEBUG */
 .service {
   background: azure;
 }
@@ -327,6 +336,7 @@ header .navbar .navbar-toggle:hover {
       display: block;
       position: absolute;
       top: 10px;
+      right: 0;
   }
   /* Nascondi contenitore menu */
   .navbar-collapse {
