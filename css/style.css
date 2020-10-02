@@ -174,6 +174,7 @@ header .navbar .navbar-toggle:hover {
 /* SECTION INNOVATIVE */
 .innovative {
   background: #f3f5f9;
+  padding: 50px 0 50px;
 }
 
 .innovative h3 {
@@ -217,7 +218,7 @@ header .navbar .navbar-toggle:hover {
 /* SECTION DEPLOY */
 .deploy {
   color: #5c6a88;
-  padding-bottom: 50px;
+  padding: 50px 0 50px;
 }
 
 .deploy h2 {
@@ -272,7 +273,7 @@ header .navbar .navbar-toggle:hover {
 /* SECTION DESIGN */
 .design {
   background: #f3f5f9;
-  padding-bottom: 50px;
+  padding: 50px 0 50px;
 }
 
 .design h2 {
@@ -313,6 +314,31 @@ header .navbar .navbar-toggle:hover {
   border-radius: 50%;
 }
 /* SECTION FEATURES */
+.features {
+  color: #031c4e;
+  padding: 50px 0 50px;
+}
+.features h2 {
+  margin-bottom: 30px;
+}
+
+.features p {
+  font-weight: 400;
+  color: #5c6a88;
+}
+
+.features [class*='col-'] {
+  margin: 20px 0;
+}
+
+.features a {
+  color: #006aff;
+}
+
+.features a:hover {
+  text-decoration: none;
+  color:  #98e4fc;
+}
 /* DEBUG */
 .service {
   background: azure;
