@@ -378,7 +378,6 @@ header .navbar .navbar-toggle:hover {
   text-decoration: none;
 }
 /* DEVELOPMENT */
-/* DEBUG */
 
 .development {
   background: #f3f5f9;
@@ -449,42 +448,32 @@ header .navbar .navbar-toggle:hover {
 }
 
 .started {
-  background: lightgrey;
+  background-image: linear-gradient(#0047c5, #001e9a);
+  color: #ffffff;
+}
+
+.started h2 {
+  margin: 50px 0 20px;
+}
+
+.started .btn {
+  color: #006aff;
+  background: #ffffff;
+  margin-bottom: 50px;
+  font-weight: 700;
+  transition: background 0.4s;
+  border: none;
+}
+
+.started .btn:hover {
+  background: rgba(87, 154, 255, 0.75);
+  color: #00d5d2;
 }
 
 .credits {
-  background: yellow;
+  background: #031c4e;
 }
 
-.box {
-  height: 200px;
-  width: 100%;
-  padding: 10px;
-}
-
-.red {
-  background: red;
-}
-
-.green {
-  background: green;
-}
-
-.grey {
-  background: lightgrey;
-}
-
-.aqua {
-  background: aqua;
-}
-
-.blue {
-  background: blue;
-}
-
-.orange {
-  background: orange;
-}
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Mostra hamburger */
@@ -516,6 +505,9 @@ header .navbar .navbar-toggle:hover {
   /* section Development */
   .development .slider {
     width: 450px;
+  }
+  .development .utility-slider i {
+    font-size: 20px;
   }
 }
 /* MOBILE */
@@ -556,5 +548,8 @@ header .navbar .navbar-toggle:hover {
   /* section Development */
   .development .slider {
     width: 300px;
+  }
+  .development .utility-slider i {
+    display: none;
   }
 }
